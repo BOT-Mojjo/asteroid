@@ -457,6 +457,8 @@ int main()
             death_time = 0;
             integrity = 3;
             inv_cooldown = 0;
+            score = 0;
+            int_count = 0;
             STATE_MACHINE = MAIN_LOOP;
             game_start(16);
         }
